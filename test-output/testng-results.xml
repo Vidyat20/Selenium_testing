@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-16T19:13:20 IST" name="Default suite" finished-at="2025-10-16T19:13:37 IST" duration-ms="16545">
+    <groups>
+    </groups>
+    <test started-at="2025-10-16T19:13:20 IST" name="Default test" finished-at="2025-10-16T19:13:37 IST" duration-ms="16545">
+      <class name="learntesting.first">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:learntesting.first@50a638b5]" started-at="2025-10-16T19:13:20 IST" name="setUp" finished-at="2025-10-16T19:13:22 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:learntesting.first@50a638b5]" started-at="2025-10-16T19:13:22 IST" name="verifyLogin" finished-at="2025-10-16T19:13:36 IST" duration-ms="13970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:learntesting.first@50a638b5]" started-at="2025-10-16T19:13:36 IST" name="tearDown" finished-at="2025-10-16T19:13:37 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- learntesting.first -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
