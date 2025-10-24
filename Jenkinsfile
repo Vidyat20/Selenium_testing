@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Vidyat20/Selenium_testing.git'
+                git branch: 'main', url: 'https://github.com/Vidyat20/Selenium_testing.git'
             }
         }
         stage('Build & Test') {
