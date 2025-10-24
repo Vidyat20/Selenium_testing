@@ -4,8 +4,6 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import learntestings.BaseTest;
-
 public class first extends BaseTest {
     @Test
     public void verifyLogin() {
