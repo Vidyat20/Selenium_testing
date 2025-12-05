@@ -2,7 +2,7 @@
 <suite name="AutomationSuite">
   <test name="SampleTests">
     <classes>
-      <class name="learntesting.first"/>
+      <class name="learntesting"/>
     </classes>
   </test>
 </suite>
