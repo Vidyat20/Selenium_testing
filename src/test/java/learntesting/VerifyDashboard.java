@@ -40,6 +40,7 @@ public void elevate_creadentials() {
     Click_on_send.click();
     WebElement Enter_PhoneOTP = driver.findElement(By.xpath("//input[@autocomplete='PhoneOTP']"));
     Enter_PhoneOTP.sendKeys("11111111");
+    System.out.println("elevate credentials page");
     
 	
 }
