@@ -2,7 +2,7 @@
 <suite name="AutomationSuite">
   <test name="SampleTests">
     <classes>
-      <class name="learntesting"/>
+      <class name="learntesting.VerifyDashboard"/>
     </classes>
   </test>
 </suite>
