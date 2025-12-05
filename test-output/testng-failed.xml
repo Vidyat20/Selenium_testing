@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="learntesting.first">
+      <class name="learntesting.VerifyDashboard">
         <methods>
-          <include name="verifyLogin"/>
           <include name="setUp"/>
+          <include name="verifymenus"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- learntesting.first -->
+      </class> <!-- learntesting.VerifyDashboard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
