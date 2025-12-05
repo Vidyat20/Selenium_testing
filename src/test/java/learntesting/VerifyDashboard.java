@@ -17,7 +17,7 @@ public void verifymenus () throws Throwable {
 	System.out.println("dashboard is verified");
 	
 }
-
+	@Test
 public void elevate_creadentials() {
 	WebElement elevate_creds = driver.findElement(By.xpath("//span[contains(text(),' Elevate Credential Strength ')]"));
 	elevate_creds.click();
