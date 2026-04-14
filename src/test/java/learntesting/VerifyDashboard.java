@@ -1,8 +1,12 @@
 package learntesting;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class VerifyDashboard extends BaseTest{
@@ -19,8 +23,14 @@ public void verifymenus () throws Throwable {
 }
 	@Test
 public void elevate_creadentials() {
-	WebElement elevate_creds = driver.findElement(By.xpath("//span[contains(text(),' Elevate Credential Strength ')]"));
-	elevate_creds.click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//iframe[@id='nnl_iframe']")));
+		driver.switchTo().frame("nnl_iframe");
+		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement elevate_creds = wait1.until(
+		    ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Elevate Credential Strength')]"))
+		);
+		elevate_creds.click();
 	
 	//verify Two-step verification text
 	WebElement twostep = driver.findElement(By.xpath("//div/h2[contains(text(),'Two-Step Verification')]"));

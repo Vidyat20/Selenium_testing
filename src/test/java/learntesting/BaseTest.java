@@ -32,7 +32,7 @@ public class BaseTest {
         Thread.sleep(10000);
         driver.findElement(By.xpath("//input[@class='mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored']")).sendKeys("bishtt_4356");
         driver.findElement(By.xpath("//span[contains(text(),'NEXT')]")).click();
-        driver.findElement(By.xpath("//input[@class='mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored']")).sendKeys("Jai_mata_di@1234");
+        driver.findElement(By.xpath("//input[@class='mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored']")).sendKeys("mypassword12345@");
         driver.findElement(By.xpath("//span[contains(text(),'NEXT')]")).click();
         try {
             WebElement urgentNotice = driver.findElement(By.xpath("//span[contains(normalize-space(),'Urgent Notice')]"));

@@ -5,6 +5,7 @@
     <classes>
       <class name="learntesting.VerifyDashboard">
         <methods>
+          <include name="elevate_creadentials"/>
           <include name="setUp"/>
           <include name="verifymenus"/>
           <include name="tearDown"/>
